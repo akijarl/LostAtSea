@@ -1,0 +1,533 @@
+"TaxonName","Year","Journal","NumPapers","PropEffortAllTaxa","PropEffortSpecificTaxa"
+"Animal","AllYears","AllJournals",1850,0.576323987538941,0.713734567901235
+"Animal","AllYears","Biological Conservation",672,0.682926829268293,0.766248574686431
+"Animal","AllYears","Biodiversity and Conservation",477,0.484756097560976,0.580998781973203
+"Animal","AllYears","Conservation Biology",589,0.598577235772358,0.794871794871795
+"Animal","AllYears","Conservation Letters",112,0.434108527131783,0.73202614379085
+"Animal","2000","AllJournals",106,0.527363184079602,0.69281045751634
+"Animal","2001","AllJournals",126,0.626865671641791,0.732558139534884
+"Animal","2002","AllJournals",115,0.572139303482587,0.688622754491018
+"Animal","2003","AllJournals",133,0.661691542288557,0.738888888888889
+"Animal","2004","AllJournals",111,0.552238805970149,0.656804733727811
+"Animal","2005","AllJournals",131,0.648514851485149,0.704301075268817
+"Animal","2006","AllJournals",124,0.616915422885572,0.729411764705882
+"Animal","2007","AllJournals",118,0.587064676616915,0.670454545454545
+"Animal","2008","AllJournals",131,0.651741293532338,0.757225433526012
+"Animal","2009","AllJournals",101,0.505,0.677852348993289
+"Animal","2010","AllJournals",104,0.522613065326633,0.742857142857143
+"Animal","2011","AllJournals",111,0.557788944723618,0.730263157894737
+"Animal","2012","AllJournals",117,0.582089552238806,0.704819277108434
+"Animal","2013","AllJournals",94,0.467661691542289,0.671428571428571
+"Animal","2014","AllJournals",113,0.562189054726368,0.753333333333333
+"Animal","2015","AllJournals",115,0.577889447236181,0.771812080536913
+"Animal","2000","Biological Conservation",37,0.672727272727273,0.552238805970149
+"Animal","2001","Biological Conservation",48,0.761904761904762,0.716417910447761
+"Animal","2002","Biological Conservation",44,0.733333333333333,0.656716417910448
+"Animal","2003","Biological Conservation",52,0.825396825396825,0.776119402985075
+"Animal","2004","Biological Conservation",47,0.758064516129032,0.701492537313433
+"Animal","2005","Biological Conservation",51,0.761194029850746,0.75
+"Animal","2006","Biological Conservation",49,0.830508474576271,0.73134328358209
+"Animal","2007","Biological Conservation",52,0.8125,0.776119402985075
+"Animal","2008","Biological Conservation",45,0.714285714285714,0.671641791044776
+"Animal","2009","Biological Conservation",34,0.693877551020408,0.548387096774194
+"Animal","2010","Biological Conservation",36,0.818181818181818,0.692307692307692
+"Animal","2011","Biological Conservation",37,0.804347826086957,0.725490196078431
+"Animal","2012","Biological Conservation",32,0.711111111111111,0.627450980392157
+"Animal","2013","Biological Conservation",29,0.674418604651163,0.557692307692308
+"Animal","2014","Biological Conservation",35,0.795454545454545,0.673076923076923
+"Animal","2015","Biological Conservation",44,0.88,0.733333333333333
+"Animal","2000","Biodiversity and Conservation",27,0.551020408163265,0.402985074626866
+"Animal","2001","Biodiversity and Conservation",38,0.644067796610169,0.567164179104478
+"Animal","2002","Biodiversity and Conservation",28,0.509090909090909,0.417910447761194
+"Animal","2003","Biodiversity and Conservation",35,0.593220338983051,0.522388059701492
+"Animal","2004","Biodiversity and Conservation",26,0.5,0.388059701492537
+"Animal","2005","Biodiversity and Conservation",37,0.578125,0.552238805970149
+"Animal","2006","Biodiversity and Conservation",36,0.610169491525424,0.537313432835821
+"Animal","2007","Biodiversity and Conservation",29,0.508771929824561,0.432835820895522
+"Animal","2008","Biodiversity and Conservation",40,0.677966101694915,0.597014925373134
+"Animal","2009","Biodiversity and Conservation",35,0.648148148148148,0.564516129032258
+"Animal","2010","Biodiversity and Conservation",24,0.631578947368421,0.461538461538462
+"Animal","2011","Biodiversity and Conservation",22,0.511627906976744,0.431372549019608
+"Animal","2012","Biodiversity and Conservation",24,0.545454545454545,0.470588235294118
+"Animal","2013","Biodiversity and Conservation",23,0.575,0.442307692307692
+"Animal","2014","Biodiversity and Conservation",23,0.575,0.433962264150943
+"Animal","2015","Biodiversity and Conservation",30,0.612244897959184,0.5
+"Animal","2000","Conservation Biology",42,0.857142857142857,0.626865671641791
+"Animal","2001","Conservation Biology",40,0.8,0.597014925373134
+"Animal","2002","Conservation Biology",43,0.826923076923077,0.641791044776119
+"Animal","2003","Conservation Biology",46,0.793103448275862,0.686567164179104
+"Animal","2004","Conservation Biology",38,0.690909090909091,0.567164179104478
+"Animal","2005","Conservation Biology",43,0.781818181818182,0.641791044776119
+"Animal","2006","Conservation Biology",39,0.75,0.582089552238806
+"Animal","2007","Conservation Biology",37,0.672727272727273,0.552238805970149
+"Animal","2008","Conservation Biology",46,0.901960784313726,0.686567164179104
+"Animal","2009","Conservation Biology",27,0.675,0.428571428571429
+"Animal","2010","Conservation Biology",27,0.84375,0.519230769230769
+"Animal","2011","Conservation Biology",31,0.815789473684211,0.607843137254902
+"Animal","2012","Conservation Biology",37,0.822222222222222,0.725490196078431
+"Animal","2013","Conservation Biology",27,0.794117647058823,0.519230769230769
+"Animal","2014","Conservation Biology",34,0.918918918918919,0.653846153846154
+"Animal","2015","Conservation Biology",32,0.842105263157895,0.533333333333333
+"Animal","2009","Conservation Letters",5,0.833333333333333,0.384615384615385
+"Animal","2010","Conservation Letters",17,0.653846153846154,0.395348837209302
+"Animal","2011","Conservation Letters",21,0.84,0.456521739130435
+"Animal","2012","Conservation Letters",24,0.75,0.5
+"Animal","2013","Conservation Letters",15,0.652173913043478,0.333333333333333
+"Animal","2014","Conservation Letters",21,0.724137931034483,0.477272727272727
+"Animal","2015","Conservation Letters",9,0.75,0.473684210526316
+"Plant","AllYears","AllJournals",706,0.21993769470405,0.272376543209877
+"Plant","AllYears","Biological Conservation",203,0.20630081300813,0.231470923603193
+"Plant","AllYears","Biodiversity and Conservation",313,0.318089430894309,0.381242387332521
+"Plant","AllYears","Conservation Biology",149,0.151422764227642,0.201079622132254
+"Plant","AllYears","Conservation Letters",41,0.158914728682171,0.26797385620915
+"Plant","2000","AllJournals",43,0.213930348258706,0.281045751633987
+"Plant","2001","AllJournals",45,0.223880597014925,0.261627906976744
+"Plant","2002","AllJournals",50,0.248756218905473,0.29940119760479
+"Plant","2003","AllJournals",45,0.223880597014925,0.25
+"Plant","2004","AllJournals",58,0.288557213930348,0.343195266272189
+"Plant","2005","AllJournals",52,0.257425742574257,0.279569892473118
+"Plant","2006","AllJournals",46,0.228855721393035,0.270588235294118
+"Plant","2007","AllJournals",57,0.283582089552239,0.323863636363636
+"Plant","2008","AllJournals",38,0.189054726368159,0.219653179190751
+"Plant","2009","AllJournals",48,0.24,0.322147651006711
+"Plant","2010","AllJournals",35,0.175879396984925,0.25
+"Plant","2011","AllJournals",39,0.195979899497487,0.256578947368421
+"Plant","2012","AllJournals",41,0.203980099502488,0.246987951807229
+"Plant","2013","AllJournals",44,0.218905472636816,0.314285714285714
+"Plant","2014","AllJournals",33,0.164179104477612,0.22
+"Plant","2015","AllJournals",32,0.160804020100503,0.214765100671141
+"Plant","2000","Biological Conservation",18,0.327272727272727,0.26865671641791
+"Plant","2001","Biological Conservation",15,0.238095238095238,0.223880597014925
+"Plant","2002","Biological Conservation",16,0.266666666666667,0.238805970149254
+"Plant","2003","Biological Conservation",11,0.174603174603175,0.164179104477612
+"Plant","2004","Biological Conservation",15,0.241935483870968,0.223880597014925
+"Plant","2005","Biological Conservation",16,0.238805970149254,0.235294117647059
+"Plant","2006","Biological Conservation",10,0.169491525423729,0.149253731343284
+"Plant","2007","Biological Conservation",12,0.1875,0.17910447761194
+"Plant","2008","Biological Conservation",17,0.26984126984127,0.253731343283582
+"Plant","2009","Biological Conservation",15,0.306122448979592,0.241935483870968
+"Plant","2010","Biological Conservation",8,0.181818181818182,0.153846153846154
+"Plant","2011","Biological Conservation",9,0.195652173913043,0.176470588235294
+"Plant","2012","Biological Conservation",13,0.288888888888889,0.254901960784314
+"Plant","2013","Biological Conservation",13,0.302325581395349,0.25
+"Plant","2014","Biological Conservation",9,0.204545454545455,0.173076923076923
+"Plant","2015","Biological Conservation",6,0.12,0.1
+"Plant","2000","Biodiversity and Conservation",18,0.36734693877551,0.26865671641791
+"Plant","2001","Biodiversity and Conservation",20,0.338983050847458,0.298507462686567
+"Plant","2002","Biodiversity and Conservation",25,0.454545454545455,0.373134328358209
+"Plant","2003","Biodiversity and Conservation",22,0.372881355932203,0.328358208955224
+"Plant","2004","Biodiversity and Conservation",26,0.5,0.388059701492537
+"Plant","2005","Biodiversity and Conservation",25,0.390625,0.373134328358209
+"Plant","2006","Biodiversity and Conservation",23,0.389830508474576,0.343283582089552
+"Plant","2007","Biodiversity and Conservation",28,0.491228070175439,0.417910447761194
+"Plant","2008","Biodiversity and Conservation",16,0.271186440677966,0.238805970149254
+"Plant","2009","Biodiversity and Conservation",19,0.351851851851852,0.306451612903226
+"Plant","2010","Biodiversity and Conservation",13,0.342105263157895,0.25
+"Plant","2011","Biodiversity and Conservation",19,0.441860465116279,0.372549019607843
+"Plant","2012","Biodiversity and Conservation",13,0.295454545454545,0.254901960784314
+"Plant","2013","Biodiversity and Conservation",16,0.4,0.307692307692308
+"Plant","2014","Biodiversity and Conservation",13,0.325,0.245283018867925
+"Plant","2015","Biodiversity and Conservation",17,0.346938775510204,0.283333333333333
+"Plant","2000","Conservation Biology",7,0.142857142857143,0.104477611940299
+"Plant","2001","Conservation Biology",10,0.2,0.149253731343284
+"Plant","2002","Conservation Biology",9,0.173076923076923,0.134328358208955
+"Plant","2003","Conservation Biology",12,0.206896551724138,0.17910447761194
+"Plant","2004","Conservation Biology",17,0.309090909090909,0.253731343283582
+"Plant","2005","Conservation Biology",11,0.2,0.164179104477612
+"Plant","2006","Conservation Biology",13,0.25,0.194029850746269
+"Plant","2007","Conservation Biology",17,0.309090909090909,0.253731343283582
+"Plant","2008","Conservation Biology",5,0.0980392156862745,0.0746268656716418
+"Plant","2009","Conservation Biology",13,0.325,0.206349206349206
+"Plant","2010","Conservation Biology",5,0.15625,0.0961538461538462
+"Plant","2011","Conservation Biology",7,0.184210526315789,0.137254901960784
+"Plant","2012","Conservation Biology",7,0.155555555555556,0.137254901960784
+"Plant","2013","Conservation Biology",7,0.205882352941176,0.134615384615385
+"Plant","2014","Conservation Biology",3,0.0810810810810811,0.0576923076923077
+"Plant","2015","Conservation Biology",6,0.157894736842105,0.1
+"Plant","2009","Conservation Letters",1,0.166666666666667,0.0769230769230769
+"Plant","2010","Conservation Letters",9,0.346153846153846,0.209302325581395
+"Plant","2011","Conservation Letters",4,0.16,0.0869565217391304
+"Plant","2012","Conservation Letters",8,0.25,0.166666666666667
+"Plant","2013","Conservation Letters",8,0.347826086956522,0.177777777777778
+"Plant","2014","Conservation Letters",8,0.275862068965517,0.181818181818182
+"Plant","2015","Conservation Letters",3,0.25,0.157894736842105
+"Not applicable","AllYears","AllJournals",290,0.0903426791277259,0.111882716049383
+"Not applicable","AllYears","Biological Conservation",36,0.0365853658536585,0.0410490307867731
+"Not applicable","AllYears","Biodiversity and Conservation",60,0.0609756097560976,0.0730816077953715
+"Not applicable","AllYears","Conservation Biology",121,0.122967479674797,0.163292847503374
+"Not applicable","AllYears","Conservation Letters",73,0.282945736434109,0.477124183006536
+"Not applicable","2000","AllJournals",30,0.149253731343284,0.196078431372549
+"Not applicable","2001","AllJournals",17,0.0845771144278607,0.0988372093023256
+"Not applicable","2002","AllJournals",11,0.054726368159204,0.0658682634730539
+"Not applicable","2003","AllJournals",8,0.0398009950248756,0.0444444444444444
+"Not applicable","2004","AllJournals",15,0.0746268656716418,0.0887573964497041
+"Not applicable","2005","AllJournals",5,0.0247524752475248,0.0268817204301075
+"Not applicable","2006","AllJournals",6,0.0298507462686567,0.0352941176470588
+"Not applicable","2007","AllJournals",9,0.0447761194029851,0.0511363636363636
+"Not applicable","2008","AllJournals",11,0.054726368159204,0.0635838150289017
+"Not applicable","2009","AllJournals",23,0.115,0.154362416107383
+"Not applicable","2010","AllJournals",30,0.150753768844221,0.214285714285714
+"Not applicable","2011","AllJournals",28,0.14070351758794,0.184210526315789
+"Not applicable","2012","AllJournals",15,0.0746268656716418,0.0903614457831325
+"Not applicable","2013","AllJournals",36,0.17910447761194,0.257142857142857
+"Not applicable","2014","AllJournals",27,0.134328358208955,0.18
+"Not applicable","2015","AllJournals",19,0.0954773869346734,0.12751677852349
+"Not applicable","2000","Biological Conservation",8,0.145454545454545,0.119402985074627
+"Not applicable","2001","Biological Conservation",2,0.0317460317460317,0.0298507462686567
+"Not applicable","2002","Biological Conservation",1,0.0166666666666667,0.0149253731343284
+"Not applicable","2003","Biological Conservation",0,0,0
+"Not applicable","2004","Biological Conservation",3,0.0483870967741935,0.0447761194029851
+"Not applicable","2005","Biological Conservation",0,0,0
+"Not applicable","2006","Biological Conservation",1,0.0169491525423729,0.0149253731343284
+"Not applicable","2007","Biological Conservation",1,0.015625,0.0149253731343284
+"Not applicable","2008","Biological Conservation",0,0,0
+"Not applicable","2009","Biological Conservation",6,0.122448979591837,0.0967741935483871
+"Not applicable","2010","Biological Conservation",0,0,0
+"Not applicable","2011","Biological Conservation",4,0.0869565217391304,0.0784313725490196
+"Not applicable","2012","Biological Conservation",2,0.0444444444444444,0.0392156862745098
+"Not applicable","2013","Biological Conservation",3,0.0697674418604651,0.0576923076923077
+"Not applicable","2014","Biological Conservation",2,0.0454545454545455,0.0384615384615385
+"Not applicable","2015","Biological Conservation",3,0.06,0.05
+"Not applicable","2000","Biodiversity and Conservation",13,0.26530612244898,0.194029850746269
+"Not applicable","2001","Biodiversity and Conservation",4,0.0677966101694915,0.0597014925373134
+"Not applicable","2002","Biodiversity and Conservation",3,0.0545454545454545,0.0447761194029851
+"Not applicable","2003","Biodiversity and Conservation",2,0.0338983050847458,0.0298507462686567
+"Not applicable","2004","Biodiversity and Conservation",5,0.0961538461538462,0.0746268656716418
+"Not applicable","2005","Biodiversity and Conservation",1,0.015625,0.0149253731343284
+"Not applicable","2006","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Not applicable","2007","Biodiversity and Conservation",3,0.0526315789473684,0.0447761194029851
+"Not applicable","2008","Biodiversity and Conservation",2,0.0338983050847458,0.0298507462686567
+"Not applicable","2009","Biodiversity and Conservation",3,0.0555555555555556,0.0483870967741935
+"Not applicable","2010","Biodiversity and Conservation",7,0.184210526315789,0.134615384615385
+"Not applicable","2011","Biodiversity and Conservation",3,0.0697674418604651,0.0588235294117647
+"Not applicable","2012","Biodiversity and Conservation",1,0.0227272727272727,0.0196078431372549
+"Not applicable","2013","Biodiversity and Conservation",5,0.125,0.0961538461538462
+"Not applicable","2014","Biodiversity and Conservation",4,0.1,0.0754716981132075
+"Not applicable","2015","Biodiversity and Conservation",3,0.0612244897959184,0.05
+"Not applicable","2000","Conservation Biology",9,0.183673469387755,0.134328358208955
+"Not applicable","2001","Conservation Biology",11,0.22,0.164179104477612
+"Not applicable","2002","Conservation Biology",7,0.134615384615385,0.104477611940299
+"Not applicable","2003","Conservation Biology",6,0.103448275862069,0.0895522388059701
+"Not applicable","2004","Conservation Biology",7,0.127272727272727,0.104477611940299
+"Not applicable","2005","Conservation Biology",4,0.0727272727272727,0.0597014925373134
+"Not applicable","2006","Conservation Biology",4,0.0769230769230769,0.0597014925373134
+"Not applicable","2007","Conservation Biology",5,0.0909090909090909,0.0746268656716418
+"Not applicable","2008","Conservation Biology",9,0.176470588235294,0.134328358208955
+"Not applicable","2009","Conservation Biology",11,0.275,0.174603174603175
+"Not applicable","2010","Conservation Biology",12,0.375,0.230769230769231
+"Not applicable","2011","Conservation Biology",6,0.157894736842105,0.117647058823529
+"Not applicable","2012","Conservation Biology",3,0.0666666666666667,0.0588235294117647
+"Not applicable","2013","Conservation Biology",10,0.294117647058824,0.192307692307692
+"Not applicable","2014","Conservation Biology",9,0.243243243243243,0.173076923076923
+"Not applicable","2015","Conservation Biology",8,0.210526315789474,0.133333333333333
+"Not applicable","2009","Conservation Letters",3,0.5,0.230769230769231
+"Not applicable","2010","Conservation Letters",11,0.423076923076923,0.255813953488372
+"Not applicable","2011","Conservation Letters",15,0.6,0.326086956521739
+"Not applicable","2012","Conservation Letters",9,0.28125,0.1875
+"Not applicable","2013","Conservation Letters",18,0.782608695652174,0.4
+"Not applicable","2014","Conservation Letters",12,0.413793103448276,0.272727272727273
+"Not applicable","2015","Conservation Letters",5,0.416666666666667,0.263157894736842
+"Multiple","AllYears","AllJournals",302,0.0940809968847352,0.116512345679012
+"Multiple","AllYears","Biological Conservation",71,0.0721544715447155,0.080957810718358
+"Multiple","AllYears","Biodiversity and Conservation",93,0.0945121951219512,0.113276492082826
+"Multiple","AllYears","Conservation Biology",112,0.113821138211382,0.15114709851552
+"Multiple","AllYears","Conservation Letters",26,0.10077519379845,0.169934640522876
+"Multiple","2000","AllJournals",15,0.0746268656716418,0.0980392156862745
+"Multiple","2001","AllJournals",11,0.054726368159204,0.063953488372093
+"Multiple","2002","AllJournals",21,0.104477611940299,0.125748502994012
+"Multiple","2003","AllJournals",13,0.0646766169154229,0.0722222222222222
+"Multiple","2004","AllJournals",16,0.0796019900497512,0.0946745562130177
+"Multiple","2005","AllJournals",11,0.0544554455445545,0.0591397849462366
+"Multiple","2006","AllJournals",23,0.114427860696517,0.135294117647059
+"Multiple","2007","AllJournals",16,0.0796019900497512,0.0909090909090909
+"Multiple","2008","AllJournals",15,0.0746268656716418,0.0867052023121387
+"Multiple","2009","AllJournals",25,0.125,0.167785234899329
+"Multiple","2010","AllJournals",27,0.135678391959799,0.192857142857143
+"Multiple","2011","AllJournals",16,0.0804020100502513,0.105263157894737
+"Multiple","2012","AllJournals",16,0.0796019900497512,0.0963855421686747
+"Multiple","2013","AllJournals",23,0.114427860696517,0.164285714285714
+"Multiple","2014","AllJournals",24,0.119402985074627,0.16
+"Multiple","2015","AllJournals",30,0.150753768844221,0.201342281879195
+"Multiple","2000","Biological Conservation",4,0.0727272727272727,0.0597014925373134
+"Multiple","2001","Biological Conservation",2,0.0317460317460317,0.0298507462686567
+"Multiple","2002","Biological Conservation",6,0.1,0.0895522388059701
+"Multiple","2003","Biological Conservation",4,0.0634920634920635,0.0597014925373134
+"Multiple","2004","Biological Conservation",2,0.032258064516129,0.0298507462686567
+"Multiple","2005","Biological Conservation",1,0.0149253731343284,0.0147058823529412
+"Multiple","2006","Biological Conservation",7,0.11864406779661,0.104477611940299
+"Multiple","2007","Biological Conservation",2,0.03125,0.0298507462686567
+"Multiple","2008","Biological Conservation",4,0.0634920634920635,0.0597014925373134
+"Multiple","2009","Biological Conservation",7,0.142857142857143,0.112903225806452
+"Multiple","2010","Biological Conservation",8,0.181818181818182,0.153846153846154
+"Multiple","2011","Biological Conservation",1,0.0217391304347826,0.0196078431372549
+"Multiple","2012","Biological Conservation",4,0.0888888888888889,0.0784313725490196
+"Multiple","2013","Biological Conservation",6,0.13953488372093,0.115384615384615
+"Multiple","2014","Biological Conservation",6,0.136363636363636,0.115384615384615
+"Multiple","2015","Biological Conservation",7,0.14,0.116666666666667
+"Multiple","2000","Biodiversity and Conservation",2,0.0408163265306122,0.0298507462686567
+"Multiple","2001","Biodiversity and Conservation",3,0.0508474576271186,0.0447761194029851
+"Multiple","2002","Biodiversity and Conservation",8,0.145454545454545,0.119402985074627
+"Multiple","2003","Biodiversity and Conservation",6,0.101694915254237,0.0895522388059701
+"Multiple","2004","Biodiversity and Conservation",9,0.173076923076923,0.134328358208955
+"Multiple","2005","Biodiversity and Conservation",2,0.03125,0.0298507462686567
+"Multiple","2006","Biodiversity and Conservation",7,0.11864406779661,0.104477611940299
+"Multiple","2007","Biodiversity and Conservation",7,0.12280701754386,0.104477611940299
+"Multiple","2008","Biodiversity and Conservation",5,0.0847457627118644,0.0746268656716418
+"Multiple","2009","Biodiversity and Conservation",4,0.0740740740740741,0.0645161290322581
+"Multiple","2010","Biodiversity and Conservation",6,0.157894736842105,0.115384615384615
+"Multiple","2011","Biodiversity and Conservation",4,0.0930232558139535,0.0784313725490196
+"Multiple","2012","Biodiversity and Conservation",6,0.136363636363636,0.117647058823529
+"Multiple","2013","Biodiversity and Conservation",7,0.175,0.134615384615385
+"Multiple","2014","Biodiversity and Conservation",9,0.225,0.169811320754717
+"Multiple","2015","Biodiversity and Conservation",8,0.163265306122449,0.133333333333333
+"Multiple","2000","Conservation Biology",9,0.183673469387755,0.134328358208955
+"Multiple","2001","Conservation Biology",6,0.12,0.0895522388059701
+"Multiple","2002","Conservation Biology",7,0.134615384615385,0.104477611940299
+"Multiple","2003","Conservation Biology",3,0.0517241379310345,0.0447761194029851
+"Multiple","2004","Conservation Biology",5,0.0909090909090909,0.0746268656716418
+"Multiple","2005","Conservation Biology",8,0.145454545454545,0.119402985074627
+"Multiple","2006","Conservation Biology",9,0.173076923076923,0.134328358208955
+"Multiple","2007","Conservation Biology",7,0.127272727272727,0.104477611940299
+"Multiple","2008","Conservation Biology",6,0.117647058823529,0.0895522388059701
+"Multiple","2009","Conservation Biology",11,0.275,0.174603174603175
+"Multiple","2010","Conservation Biology",7,0.21875,0.134615384615385
+"Multiple","2011","Conservation Biology",6,0.157894736842105,0.117647058823529
+"Multiple","2012","Conservation Biology",2,0.0444444444444444,0.0392156862745098
+"Multiple","2013","Conservation Biology",7,0.205882352941176,0.134615384615385
+"Multiple","2014","Conservation Biology",6,0.162162162162162,0.115384615384615
+"Multiple","2015","Conservation Biology",13,0.342105263157895,0.216666666666667
+"Multiple","2009","Conservation Letters",3,0.5,0.230769230769231
+"Multiple","2010","Conservation Letters",6,0.230769230769231,0.13953488372093
+"Multiple","2011","Conservation Letters",5,0.2,0.108695652173913
+"Multiple","2012","Conservation Letters",4,0.125,0.0833333333333333
+"Multiple","2013","Conservation Letters",3,0.130434782608696,0.0666666666666667
+"Multiple","2014","Conservation Letters",3,0.103448275862069,0.0681818181818182
+"Multiple","2015","Conservation Letters",2,0.166666666666667,0.105263157894737
+"Fungi","AllYears","AllJournals",30,0.00934579439252336,0.0115740740740741
+"Fungi","AllYears","Biological Conservation",2,0.00203252032520325,0.00228050171037628
+"Fungi","AllYears","Biodiversity and Conservation",25,0.0254065040650406,0.0304506699147381
+"Fungi","AllYears","Conservation Biology",3,0.00304878048780488,0.00404858299595142
+"Fungi","AllYears","Conservation Letters",0,0,0
+"Fungi","2000","AllJournals",3,0.0149253731343284,0.0196078431372549
+"Fungi","2001","AllJournals",0,0,0
+"Fungi","2002","AllJournals",2,0.00995024875621891,0.0119760479041916
+"Fungi","2003","AllJournals",1,0.00497512437810945,0.00555555555555556
+"Fungi","2004","AllJournals",0,0,0
+"Fungi","2005","AllJournals",2,0.0099009900990099,0.010752688172043
+"Fungi","2006","AllJournals",0,0,0
+"Fungi","2007","AllJournals",1,0.00497512437810945,0.00568181818181818
+"Fungi","2008","AllJournals",3,0.0149253731343284,0.0173410404624277
+"Fungi","2009","AllJournals",0,0,0
+"Fungi","2010","AllJournals",1,0.0050251256281407,0.00714285714285714
+"Fungi","2011","AllJournals",2,0.0100502512562814,0.0131578947368421
+"Fungi","2012","AllJournals",8,0.0398009950248756,0.0481927710843374
+"Fungi","2013","AllJournals",2,0.00995024875621891,0.0142857142857143
+"Fungi","2014","AllJournals",3,0.0149253731343284,0.02
+"Fungi","2015","AllJournals",2,0.0100502512562814,0.0134228187919463
+"Fungi","2000","Biological Conservation",0,0,0
+"Fungi","2001","Biological Conservation",0,0,0
+"Fungi","2002","Biological Conservation",0,0,0
+"Fungi","2003","Biological Conservation",0,0,0
+"Fungi","2004","Biological Conservation",0,0,0
+"Fungi","2005","Biological Conservation",0,0,0
+"Fungi","2006","Biological Conservation",0,0,0
+"Fungi","2007","Biological Conservation",0,0,0
+"Fungi","2008","Biological Conservation",1,0.0158730158730159,0.0149253731343284
+"Fungi","2009","Biological Conservation",0,0,0
+"Fungi","2010","Biological Conservation",0,0,0
+"Fungi","2011","Biological Conservation",0,0,0
+"Fungi","2012","Biological Conservation",0,0,0
+"Fungi","2013","Biological Conservation",1,0.0232558139534884,0.0192307692307692
+"Fungi","2014","Biological Conservation",0,0,0
+"Fungi","2015","Biological Conservation",0,0,0
+"Fungi","2000","Biodiversity and Conservation",3,0.0612244897959184,0.0447761194029851
+"Fungi","2001","Biodiversity and Conservation",0,0,0
+"Fungi","2002","Biodiversity and Conservation",2,0.0363636363636364,0.0298507462686567
+"Fungi","2003","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Fungi","2004","Biodiversity and Conservation",0,0,0
+"Fungi","2005","Biodiversity and Conservation",1,0.015625,0.0149253731343284
+"Fungi","2006","Biodiversity and Conservation",0,0,0
+"Fungi","2007","Biodiversity and Conservation",0,0,0
+"Fungi","2008","Biodiversity and Conservation",2,0.0338983050847458,0.0298507462686567
+"Fungi","2009","Biodiversity and Conservation",0,0,0
+"Fungi","2010","Biodiversity and Conservation",1,0.0263157894736842,0.0192307692307692
+"Fungi","2011","Biodiversity and Conservation",2,0.0465116279069767,0.0392156862745098
+"Fungi","2012","Biodiversity and Conservation",7,0.159090909090909,0.137254901960784
+"Fungi","2013","Biodiversity and Conservation",1,0.025,0.0192307692307692
+"Fungi","2014","Biodiversity and Conservation",3,0.075,0.0566037735849057
+"Fungi","2015","Biodiversity and Conservation",2,0.0408163265306122,0.0333333333333333
+"Fungi","2000","Conservation Biology",0,0,0
+"Fungi","2001","Conservation Biology",0,0,0
+"Fungi","2002","Conservation Biology",0,0,0
+"Fungi","2003","Conservation Biology",0,0,0
+"Fungi","2004","Conservation Biology",0,0,0
+"Fungi","2005","Conservation Biology",1,0.0181818181818182,0.0149253731343284
+"Fungi","2006","Conservation Biology",0,0,0
+"Fungi","2007","Conservation Biology",1,0.0181818181818182,0.0149253731343284
+"Fungi","2008","Conservation Biology",0,0,0
+"Fungi","2009","Conservation Biology",0,0,0
+"Fungi","2010","Conservation Biology",0,0,0
+"Fungi","2011","Conservation Biology",0,0,0
+"Fungi","2012","Conservation Biology",1,0.0222222222222222,0.0196078431372549
+"Fungi","2013","Conservation Biology",0,0,0
+"Fungi","2014","Conservation Biology",0,0,0
+"Fungi","2015","Conservation Biology",0,0,0
+"Fungi","2009","Conservation Letters",0,0,0
+"Fungi","2010","Conservation Letters",0,0,0
+"Fungi","2011","Conservation Letters",0,0,0
+"Fungi","2012","Conservation Letters",0,0,0
+"Fungi","2013","Conservation Letters",0,0,0
+"Fungi","2014","Conservation Letters",0,0,0
+"Fungi","2015","Conservation Letters",0,0,0
+"Microbe","AllYears","AllJournals",6,0.00186915887850467,0.00231481481481481
+"Microbe","AllYears","Biological Conservation",0,0,0
+"Microbe","AllYears","Biodiversity and Conservation",6,0.00609756097560976,0.00730816077953715
+"Microbe","AllYears","Conservation Biology",0,0,0
+"Microbe","AllYears","Conservation Letters",0,0,0
+"Microbe","2000","AllJournals",1,0.00497512437810945,0.0065359477124183
+"Microbe","2001","AllJournals",1,0.00497512437810945,0.00581395348837209
+"Microbe","2002","AllJournals",0,0,0
+"Microbe","2003","AllJournals",1,0.00497512437810945,0.00555555555555556
+"Microbe","2004","AllJournals",0,0,0
+"Microbe","2005","AllJournals",1,0.00495049504950495,0.00537634408602151
+"Microbe","2006","AllJournals",0,0,0
+"Microbe","2007","AllJournals",0,0,0
+"Microbe","2008","AllJournals",1,0.00497512437810945,0.00578034682080925
+"Microbe","2009","AllJournals",0,0,0
+"Microbe","2010","AllJournals",0,0,0
+"Microbe","2011","AllJournals",0,0,0
+"Microbe","2012","AllJournals",0,0,0
+"Microbe","2013","AllJournals",0,0,0
+"Microbe","2014","AllJournals",1,0.00497512437810945,0.00666666666666667
+"Microbe","2015","AllJournals",0,0,0
+"Microbe","2000","Biological Conservation",0,0,0
+"Microbe","2001","Biological Conservation",0,0,0
+"Microbe","2002","Biological Conservation",0,0,0
+"Microbe","2003","Biological Conservation",0,0,0
+"Microbe","2004","Biological Conservation",0,0,0
+"Microbe","2005","Biological Conservation",0,0,0
+"Microbe","2006","Biological Conservation",0,0,0
+"Microbe","2007","Biological Conservation",0,0,0
+"Microbe","2008","Biological Conservation",0,0,0
+"Microbe","2009","Biological Conservation",0,0,0
+"Microbe","2010","Biological Conservation",0,0,0
+"Microbe","2011","Biological Conservation",0,0,0
+"Microbe","2012","Biological Conservation",0,0,0
+"Microbe","2013","Biological Conservation",0,0,0
+"Microbe","2014","Biological Conservation",0,0,0
+"Microbe","2015","Biological Conservation",0,0,0
+"Microbe","2000","Biodiversity and Conservation",1,0.0204081632653061,0.0149253731343284
+"Microbe","2001","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Microbe","2002","Biodiversity and Conservation",0,0,0
+"Microbe","2003","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Microbe","2004","Biodiversity and Conservation",0,0,0
+"Microbe","2005","Biodiversity and Conservation",1,0.015625,0.0149253731343284
+"Microbe","2006","Biodiversity and Conservation",0,0,0
+"Microbe","2007","Biodiversity and Conservation",0,0,0
+"Microbe","2008","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Microbe","2009","Biodiversity and Conservation",0,0,0
+"Microbe","2010","Biodiversity and Conservation",0,0,0
+"Microbe","2011","Biodiversity and Conservation",0,0,0
+"Microbe","2012","Biodiversity and Conservation",0,0,0
+"Microbe","2013","Biodiversity and Conservation",0,0,0
+"Microbe","2014","Biodiversity and Conservation",1,0.025,0.0188679245283019
+"Microbe","2015","Biodiversity and Conservation",0,0,0
+"Microbe","2000","Conservation Biology",0,0,0
+"Microbe","2001","Conservation Biology",0,0,0
+"Microbe","2002","Conservation Biology",0,0,0
+"Microbe","2003","Conservation Biology",0,0,0
+"Microbe","2004","Conservation Biology",0,0,0
+"Microbe","2005","Conservation Biology",0,0,0
+"Microbe","2006","Conservation Biology",0,0,0
+"Microbe","2007","Conservation Biology",0,0,0
+"Microbe","2008","Conservation Biology",0,0,0
+"Microbe","2009","Conservation Biology",0,0,0
+"Microbe","2010","Conservation Biology",0,0,0
+"Microbe","2011","Conservation Biology",0,0,0
+"Microbe","2012","Conservation Biology",0,0,0
+"Microbe","2013","Conservation Biology",0,0,0
+"Microbe","2014","Conservation Biology",0,0,0
+"Microbe","2015","Conservation Biology",0,0,0
+"Microbe","2009","Conservation Letters",0,0,0
+"Microbe","2010","Conservation Letters",0,0,0
+"Microbe","2011","Conservation Letters",0,0,0
+"Microbe","2012","Conservation Letters",0,0,0
+"Microbe","2013","Conservation Letters",0,0,0
+"Microbe","2014","Conservation Letters",0,0,0
+"Microbe","2015","Conservation Letters",0,0,0
+"Other","AllYears","AllJournals",26,0.00809968847352025,0.0100308641975309
+"Other","AllYears","Biological Conservation",0,0,0
+"Other","AllYears","Biodiversity and Conservation",10,0.0101626016260163,0.0121802679658952
+"Other","AllYears","Conservation Biology",10,0.0101626016260163,0.0134952766531714
+"Other","AllYears","Conservation Letters",6,0.0232558139534884,0.0392156862745098
+"Other","2000","AllJournals",3,0.0149253731343284,0.0196078431372549
+"Other","2001","AllJournals",1,0.00497512437810945,0.00581395348837209
+"Other","2002","AllJournals",2,0.00995024875621891,0.0119760479041916
+"Other","2003","AllJournals",0,0,0
+"Other","2004","AllJournals",1,0.00497512437810945,0.00591715976331361
+"Other","2005","AllJournals",0,0,0
+"Other","2006","AllJournals",2,0.00995024875621891,0.0117647058823529
+"Other","2007","AllJournals",0,0,0
+"Other","2008","AllJournals",2,0.00995024875621891,0.0115606936416185
+"Other","2009","AllJournals",3,0.015,0.0201342281879195
+"Other","2010","AllJournals",2,0.0100502512562814,0.0142857142857143
+"Other","2011","AllJournals",3,0.0150753768844221,0.0197368421052632
+"Other","2012","AllJournals",4,0.0199004975124378,0.0240963855421687
+"Other","2013","AllJournals",2,0.00995024875621891,0.0142857142857143
+"Other","2014","AllJournals",0,0,0
+"Other","2015","AllJournals",1,0.0050251256281407,0.00671140939597315
+"Other","2000","Biological Conservation",0,0,0
+"Other","2001","Biological Conservation",0,0,0
+"Other","2002","Biological Conservation",0,0,0
+"Other","2003","Biological Conservation",0,0,0
+"Other","2004","Biological Conservation",0,0,0
+"Other","2005","Biological Conservation",0,0,0
+"Other","2006","Biological Conservation",0,0,0
+"Other","2007","Biological Conservation",0,0,0
+"Other","2008","Biological Conservation",0,0,0
+"Other","2009","Biological Conservation",0,0,0
+"Other","2010","Biological Conservation",0,0,0
+"Other","2011","Biological Conservation",0,0,0
+"Other","2012","Biological Conservation",0,0,0
+"Other","2013","Biological Conservation",0,0,0
+"Other","2014","Biological Conservation",0,0,0
+"Other","2015","Biological Conservation",0,0,0
+"Other","2000","Biodiversity and Conservation",3,0.0612244897959184,0.0447761194029851
+"Other","2001","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Other","2002","Biodiversity and Conservation",1,0.0181818181818182,0.0149253731343284
+"Other","2003","Biodiversity and Conservation",0,0,0
+"Other","2004","Biodiversity and Conservation",1,0.0192307692307692,0.0149253731343284
+"Other","2005","Biodiversity and Conservation",0,0,0
+"Other","2006","Biodiversity and Conservation",0,0,0
+"Other","2007","Biodiversity and Conservation",0,0,0
+"Other","2008","Biodiversity and Conservation",1,0.0169491525423729,0.0149253731343284
+"Other","2009","Biodiversity and Conservation",1,0.0185185185185185,0.0161290322580645
+"Other","2010","Biodiversity and Conservation",1,0.0263157894736842,0.0192307692307692
+"Other","2011","Biodiversity and Conservation",1,0.0232558139534884,0.0196078431372549
+"Other","2012","Biodiversity and Conservation",0,0,0
+"Other","2013","Biodiversity and Conservation",0,0,0
+"Other","2014","Biodiversity and Conservation",0,0,0
+"Other","2015","Biodiversity and Conservation",0,0,0
+"Other","2000","Conservation Biology",0,0,0
+"Other","2001","Conservation Biology",0,0,0
+"Other","2002","Conservation Biology",1,0.0192307692307692,0.0149253731343284
+"Other","2003","Conservation Biology",0,0,0
+"Other","2004","Conservation Biology",0,0,0
+"Other","2005","Conservation Biology",0,0,0
+"Other","2006","Conservation Biology",2,0.0384615384615385,0.0298507462686567
+"Other","2007","Conservation Biology",0,0,0
+"Other","2008","Conservation Biology",1,0.0196078431372549,0.0149253731343284
+"Other","2009","Conservation Biology",1,0.025,0.0158730158730159
+"Other","2010","Conservation Biology",1,0.03125,0.0192307692307692
+"Other","2011","Conservation Biology",1,0.0263157894736842,0.0196078431372549
+"Other","2012","Conservation Biology",1,0.0222222222222222,0.0196078431372549
+"Other","2013","Conservation Biology",1,0.0294117647058824,0.0192307692307692
+"Other","2014","Conservation Biology",0,0,0
+"Other","2015","Conservation Biology",1,0.0263157894736842,0.0166666666666667
+"Other","2009","Conservation Letters",1,0.166666666666667,0.0769230769230769
+"Other","2010","Conservation Letters",0,0,0
+"Other","2011","Conservation Letters",1,0.04,0.0217391304347826
+"Other","2012","Conservation Letters",3,0.09375,0.0625
+"Other","2013","Conservation Letters",1,0.0434782608695652,0.0222222222222222
+"Other","2014","Conservation Letters",0,0,0
+"Other","2015","Conservation Letters",0,0,0
