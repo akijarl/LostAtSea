@@ -7,7 +7,7 @@ options(scipen = 999) #turn off scientific notation
 library(ggplot2) #plotting
 #library(ggpmisc)
 library(betareg) #for beta regression
-#library(sjPlot)
+library(sjPlot) #for effect size plots
 #library(sjlabelled)
 #library(sjmisc)
 library(scales) #for rescaling data
@@ -17,25 +17,23 @@ library(plyr) #for summarizing data
 dateNum = as.character(Sys.Date())
 
 ####Set folder locations ####
-taxonDir <- "C:/Users/jc690391/OneDrive - James Cook University/Documents/ConsBioReview/ConsBioRev_Analysis/Taxonomy/TaxonomyData/"
-iucnDir <- "C:/Users/jc690391/OneDrive - James Cook University/Documents/ConsBioReview/ConsBioRev_Analysis/IUCNdata/"
-plotDir <- "C:/Users/jc690391/OneDrive - James Cook University/Documents/ConsBioReview/ConsBioRev_Analysis/Taxonomy/TaxonomyPlots/"
-analysisDir <- "C:/Users/jc690391/OneDrive - James Cook University/Documents/ConsBioReview/ConsBioRev_Analysis/Taxonomy/TaxonomyAnalysis/"
+sourceDir <- "C:/Users/jc690391/OneDrive - James Cook University/Documents/ConsBioReview/ConsBioRev_Analysis/LostAtSea/" #just change this to the folder where the files (code and data) are located
+taxonDir <- paste0(sourceDir, "Taxonomy/TaxonomyData/") #folder with the taxonomy "effort" data
+iucnDir <- paste0(sourceDir, "IUCNdata/") #folder with the IUCN (i.e. need) data
+plotDir <- paste0(sourceDir, "Taxonomy/TaxonomyPlots/") #folder to save plots from analysis
+analysisDir <- paste0(sourceDir, "Taxonomy/TaxonomyAnalysis/") #folder to save CSV files from analysis
   
 ####Open the kingdom effort and need data####
 taxonEffortDF <- read.csv(file = paste0(taxonDir, "ConBioRev_TaxonEffortBroad_ByYearJournalAndAltogether_2019-12-17.csv"), stringsAsFactors = F) #988 of 7 obs
 taxonNeedDF <- read.csv(file = paste0(iucnDir, "ConReview_KingdomNeed_ByYearIUCNcat_2019-10-03.csv"), stringsAsFactors = F) #988 of 7 obs
 
 ####1. Effort over time - analysis and plots ####
-###Analyze with beta regression
-head(taxonEffortDF)
+###Combine the "Other" and "Not applicable" categories in the effort data into a single "Other_NA" category
+table(taxonEffortDF$TaxonName) #These are the original 7 categories
+# Animal          Fungi        Microbe       Multiple Not applicable          Other          Plant 
+# 76             76             76             76             76             76             76   
 
-###Combine the "Other" and "Not applicable" categories
-unique(taxonEffortDF$TaxonName)
-# [1] "Animal"         "Plant"          "Not applicable" "Multiple"      
-# [5] "Fungi"          "Microbe"        "Other"  
-
-uniqueYears <- unique(taxonEffortDF$Year)
+uniqueYears <- unique(taxonEffortDF$Year) #Combine those categories for each year and journal combination separately
 uniqueYear = uniqueYears[1]
 for (uniqueYear in uniqueYears) {
   yearDF <- subset(taxonEffortDF, Year == uniqueYear)
@@ -58,30 +56,30 @@ for (uniqueYear in uniqueYears) {
   }
 }
 
-##Remove any of the rows with NA and other separate
+##Remove any of the rows with the old separate categories of "Not Applicable" and "Other" 
 taxonEffortDF <- subset(taxonEffortDF, !TaxonName %in% c("Other", "Not applicable"))
 
-unique(taxonEffortDF$TaxonName)
-#[1] "Animal"   "Plant"    "Multiple" "Fungi"    "Microbe"  "Other_NA"
+table(taxonEffortDF$TaxonName) #Now only 6 categories
+# Animal    Fungi  Microbe Multiple Other_NA    Plant 
+# 76       76       76       76       76       76 
 
 #Change the order of the taxon categories so it starts with the main categories
 taxonEffortDF$TaxonName <- factor(taxonEffortDF$TaxonName, levels = c("Animal", "Plant", "Fungi", "Microbe", "Multiple", "Other_NA"))
 
-#Make dataframe without "All Years" for analysis
+#Make dataframe without "All Years" for temporal analysis
 sepYearEffortDF <- subset(taxonEffortDF, Year != "AllYears")
-sepYearEffortDF$Year <- as.integer(sepYearEffortDF$Year)
+sepYearEffortDF$Year <- as.integer(sepYearEffortDF$Year) #turn year into integer for analysis and plotting
 
-###Run beta regression analysis for each taxon with varying slopes and intercepts for each journal and each taxon
+###Run beta regression analysis for each taxon separately with interactions between year and journal 
 #Re-assign any zeros in the proportional data to 0.001 and 1's to 0.999 because those are not allowed in the beta regression
 betaDF <- sepYearEffortDF
-sum(betaDF$AllPapers == 0) #0
 sum(betaDF$PropEffortAllTaxa == 0) #106
 sum(betaDF$PropEffortAllTaxa == 1) #0
 betaDF$PropEffortAllTaxa[betaDF$PropEffortAllTaxa == 0] <- 0.0001
 
 ###Create a new column transforming the year to make the intercept useful
 ##  by subtracting the first year
-betaDF$YearZero <- betaDF$Year - min(betaDF$Year)
+betaDF$YearZero <- betaDF$Year - round(mean(unique(betaDF$Year))) #Now the intercept will be the middle year (2008)
 
 ##Create an empty dataframe to add results of the beta regression analysis
 betaResultsDF <- data.frame(TaxonName = character(),
@@ -96,7 +94,7 @@ betaResultsDF <- data.frame(TaxonName = character(),
                             PrecisionPval = numeric(), stringsAsFactors = F) 
 
 uniqueTaxa = unique(betaDF$TaxonName)
-uniqueTaxon = uniqueTaxa[6]
+uniqueTaxon = uniqueTaxa[3]
 for (uniqueTaxon in uniqueTaxa) {
   taxonDF <- subset(betaDF, TaxonName == uniqueTaxon)
   taxonBetaRegModel <- betareg(PropEffortAllTaxa ~ YearZero * Journal, data = taxonDF)
@@ -132,15 +130,13 @@ for (uniqueTaxon in uniqueTaxa) {
 #Change the order of the columns to start with the Taxon then Coefficient
 betaResultsDF <- betaResultsDF[c("TaxonName", "Coefficient", "Estimate", "StdError", "Zvalue", "Pvalue", "PrecisionEst", "PrecisionStdErr", "PrecisionZval", "PrecisionPval")]
 
-test <- subset(betaResultsDF, Pvalue < 0.05) #The only significant results are with "Multiple" category
+test <- subset(betaResultsDF, Pvalue < 0.05) #Just get those that are significant --> The only significant results are with "Multiple" category
 
 ##Save the analysis results for beta regression
 write.csv(x = betaResultsDF, file = paste0(analysisDir, "ConsBioRev_BetaRegRes_TaxonEffortBroad_", dateNum, ".csv"), row.names = F)
 
 ###Plot the effect sizes for the full regression
-allBetaReg <- betareg(PropEffortAllTaxa ~ YearZero + TaxonName * Journal, data = betaDF)
-
-allGLM <- glm(PropEffortAllTaxa ~ YearZero * TaxonName * Journal, data = betaDF)
+allBetaReg <- betareg(PropEffortAllTaxa ~ YearZero * TaxonName * Journal, data = betaDF)
 
 fullEffectPlot <- plot_model(allBetaReg, tranform = NULL, show.values = TRUE, value.offset = .3, rm.terms = "(phi)", 
                              vline.color = "black",
@@ -149,20 +145,32 @@ fullEffectPlot <- plot_model(allBetaReg, tranform = NULL, show.values = TRUE, va
 
 ggsave(filename = paste0(plotDir, "ConsBioRev_TaxonEffortFullEffectSizes_AllTaxon_", dateNum, ".jpg"), plot = fullEffectPlot, width = 10, height = 10)
 
-###Plot the effect sizes again but only for the year effect
-####REDO THIS NEXT SECTION BUT USING THE COEFFICIENT ESTIMATES FROM THE SAVED CSV ####
-yearAllJournalsTermsToInclude <- c("YearZero", "YearZero:TaxonNamePlant", "YearZero:TaxonNameFungi", "YearZero:TaxonNameMicrobe", "YearZero:TaxonNameMultiple", "YearZero:TaxonNameOther_NA")
+###Plot the effect sizes for each of the individual tests showing just the year effects
+yearResults <- subset(betaResultsDF, Coefficient == "YearZero") #Subset to just get the year effects
 
-yearEffectPlotAllJournals <- plot_model(allBetaReg,
-                                        tranform = NULL, 
-                                        show.values = TRUE, 
-                                        value.offset = .3, 
-                                        terms = yearAllJournalsTermsToInclude, 
-                                        vline.color = "black",
-                                        axis.title = "Estimate (log-odds)",
-                                        title = "Beta regression effect sizes - conservation research effort by taxon (all journals year effect)"
-                                        ) + theme(panel.grid = element_blank())
+#Assign colors based on whether or not the effect is significant
+yearResults$DotColor <- "grey"
+yearResults$DotColor[yearResults$Pvalue < 0.05] <- "black"
 
+#Calculate the standard deviation from the standard error
+yearResults$StdDev <- yearResults$StdError*sqrt(71)
+
+#Create an effect size plot
+ggplot(data = yearResults, aes(x = TaxonName, y = Estimate)) + 
+  geom_point(col = yearResults$DotColor, size=3) +   # Draw points
+  geom_segment(aes(x = TaxonName, 
+                   xend = TaxonName, 
+                   y = Estimate - (1.96*StdError), 
+                   yend = Estimate + (1.96*StdError)), 
+               col = yearResults$DotColor, 
+               size=0.1) +   
+  # scale_color_manual(name="P value",  ####REDO THIS ####
+  #                    labels = c("< 0.05", "> 0.05"), 
+  #                    values = c("black"= black, "grey" = grey)) +
+  labs(title="Beta regression effect sizes for year", 
+       subtitle="Year estimates (+/- 95% CI)",
+       x = "Taxon Category") +  
+  coord_flip()
 
 ###Plot the effort over time (by journal and by taxon)
 #Define color-blind friendly palettes
